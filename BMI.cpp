@@ -14,4 +14,9 @@ using namespace std;
                 return "Obesitas";
         }
 
+        int main() {
+        float berat, tinggi, bmi;   
+        string status;
+;
+    }
    
