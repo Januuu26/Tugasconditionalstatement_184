@@ -5,17 +5,17 @@ using namespace std;
         return berat/(tinggi*tinggi);
     }
 
-        string Status_BMI(float bmi){
-            if (bmi<18.5)
+        string Status_rata(float rata){
+            if (rata<18.5)
                 return "Berat Badan Tidak Ideal";
-            else if (bmi>=18.5 && bmi<25)
+            else if (rata>=18.5 && rata<25)
                 return "Berat Badan Normal";
-            else if (bmi>=25 && bmi<30)
+            else if (rata>=25 && rata<30)
                 return "Berat Badan Obesitas";
         }
 
         int main() {
-        float berat, tinggi, bmi;   
+        float berat, tinggi, rata;   
         string status;
 
         
@@ -24,10 +24,10 @@ using namespace std;
         cout<<"Masukkan tinggi badan (m) =  ";
         cin>>tinggi;
 
-        bmi = Berat_tinggi(berat, tinggi);
+        rata = Berat_tinggi(berat, tinggi);
 
         
-        cout<<"BMI Anda adalah "<<bmi<<endl;
-        cout<<"Status "<< Status_BMI(bmi)<<" , dengan BMI: "<<bmi<<endl;
+        cout<<"BMI Anda adalah "<<rata<<endl;
+        cout<<"Status "<< Status_rata(rata)<<" , dengan BMI: "<<rata<<endl;
     }
    
