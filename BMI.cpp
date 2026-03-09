@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+    float Berat_tinggi(float berat, float tinggi){
+        return berat/(tinggi*tinggi);
+    }
+
+        string Status_BMI(float bmi){
+            if (bmi<18.5)
+                return "Tidak Ideal";
+            else if (bmi>=18.5 && bmi<25)
+                return "Normal";
+            else if (bmi>=25 && bmi<30)
+                return "Obesitas";
+        }
+
+   
