@@ -26,6 +26,8 @@ using namespace std;
 
         bmi = Berat_tinggi(berat, tinggi);
 
-
+        
+        cout<<"BMI Anda adalah "<<bmi<<endl;
+        cout<<"Status "<< Status_BMI(bmi)<<" , dengan BMI: "<<bmi<<endl;
     }
    
