@@ -17,6 +17,15 @@ using namespace std;
         int main() {
         float berat, tinggi, bmi;   
         string status;
-;
+
+        
+        cout<<"Masukkan berat badan (kg) = ";
+        cin>>berat;
+        cout<<"Masukkan tinggi badan (m) =  ";
+        cin>>tinggi;
+
+        bmi = Berat_tinggi(berat, tinggi);
+
+
     }
    
