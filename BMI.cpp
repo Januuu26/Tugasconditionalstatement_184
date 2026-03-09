@@ -7,11 +7,11 @@ using namespace std;
 
         string Status_BMI(float bmi){
             if (bmi<18.5)
-                return "Tidak Ideal";
+                return "Berat Badan Tidak Ideal";
             else if (bmi>=18.5 && bmi<25)
-                return "Normal";
+                return "Berat Badan Normal";
             else if (bmi>=25 && bmi<30)
-                return "Obesitas";
+                return "Berat Badan Obesitas";
         }
 
         int main() {
